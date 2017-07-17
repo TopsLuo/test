@@ -1,0 +1,1 @@
+{"room_id" : 123,"message_type" : "create","to" : "media_server","creator" : "admin","room_type" : 1,"room_name" : "test","duration" : 30,"passwd" : "TopsLuo","video" : {"video_codec" : "h264","width" : 720,"height" : 576,"bitrate" : 1000000,"framerate" : 25,"kint" : 50,"bframe" : 1},"audio" : {"audio_codec" : "libfaac","samplerate" : 44100,"channel" : 2,"bitrate" : 64000}}

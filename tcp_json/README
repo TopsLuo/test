@@ -1,0 +1,7 @@
+使用方法:
+    有两个脚本，goFile和goStr，两都的功能一样，只不过参数形式不同而已（goFile为手动使用的脚本，goStr为批量处理时使用的脚本）
+    1.  go的参数是文件，手动使用。使用方法为：
+        ./goFile create
+        ./goFile join
+    2.  go1的参数是Json字符串，,批量脚本使用。使用方法为:
+        ./goStr "hello world"

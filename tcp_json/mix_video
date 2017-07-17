@@ -1,0 +1,1 @@
+{"room_id" : 123,"message_type" : "video_mix","to" : "media_server","requestor" : "admin","source_number" : 10,"video_mixer" : ["device_0","device_1","device_2","device_3","device_4","device_5","device_6","device_7","device_8","device_9"],"layout" : "layout_10_1P9"}

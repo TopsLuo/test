@@ -1,0 +1,1 @@
+{"room_id" : 123,"message_type" : "audio_mix","to" : "media_server","requestor" : "admin","source_number" : 3,"audio_mixer" : ["device_00","device_01","device_02"]}
