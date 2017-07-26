@@ -79,5 +79,14 @@ time_spend:
 	g++ -o time_spend.o -c time_spend.cxx
 	g++ -o time_spend time_spend.o
 
+bmp_freetype2:
+	gcc -o bmp_freetype2.o -c bmp_freetype2.c $(CFLAGS) $(LDFLAGS) $(LIBS)
+	gcc -o bmp_freetype2 bmp_freetype2.o $(CFLAGS) $(LDFLAGS) $(LIBS)
+    
+text2image:
+	g++ -o text2image.o -c text2image.cxx $(CFLAGS) $(LDFLAGS) $(LIBS)
+	g++ -o text2imageMain.o -c text2imageMain.cxx $(CFLAGS) $(LDFLAGS) $(LIBS)
+	g++ -o text2image text2image.o text2imageMain.o $(CFLAGS) $(LDFLAGS) $(LIBS)
+
 clean:
 	rm -rf $(OBJECTS) $(OBJS) $(THIRD_OBJS)
